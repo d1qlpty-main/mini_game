@@ -1,0 +1,188 @@
+print("This is a mini-game where you have to choose between two options. Reach the end to find out how my short story concludes.")
+
+print('''                  _
+
+.     /                 \---/
+     / \                 |o|
+     / \           _/"\_ | |
+      |            |   | | |  _/"\_           \.
+         \       _/"\_  ===== |   |          / \.
+    \   / \      |   |   |o|_/"\_            / \.
+   / \  / \     _/"\_    | ||   |_/"\_    /   |      \.
+   / \   |      | _/"\_ /===\ _/"\_  |   / \        / \.
+    |             |   |       |   |      / \        / \.
+        \                                 |          |/
+       / \   /    \           /      \        /      / \.
+       / \  / \  / \   /     / \    / \      / \     / \.
+        |   / \  / \  / \    / \    / \      / \      |
+             |    |   / \     |      |        |
+           \           |        \                  \.
+          / \    \       /     / \      /         / \.
+          / \   / \     / \    / \     / \        / \/
+           |    / \     / \     |      / \         |
+                 |       |              |
+      
+      ''')
+
+print("You pass through a dense forest and arrive at an ancient castle.\nIts doors creak in the wind, and its windows, dark and cold, seem to stare right at you.\nAs you approach, you hear a piercing scream. Your mind clouds, and you collapse, powerless.")
+
+while True:
+    your_choice = str(input("Type 'N' to continue the game or 'Exit' to quit: "))
+    if your_choice == "N":
+        print("You chose to continue your journey.\n")
+        break
+    elif your_choice == "Exit":
+        print("Game over. You left the darkness behind.")
+        exit()
+    else:
+        print("Please choose the correct answer - 'N' to continue, 'Exit' to quit.")
+
+# Transition 1
+print("You wake up in a cold, dark prison.\nRusty bars, wet stones, and a sinister chill pierce every part of your being.\nYour memory is blank, like your spirit, but one thing is clear — you need to escape.")
+while True:
+    your_choice = input("Choice 1:\nA) Inspect the cell, searching for a way out.\nB) Stand up and try to break the door with your strength.\nChoose A or B: ")
+    if your_choice == "A":
+        print("You carefully inspect the walls, feeling for cracks. In the corner, you find a small, rusted object.\nIt looks like a key, but there's something strange about it — a dark energy emanates from it...\nSuddenly, you hear footsteps in the hallway.")
+        while True:
+            your_choice = input("Choice 2:\nA) Use the key to open the door.\nB) Hide and wait for the footsteps to pass.\nChoose A or B: ")
+            if your_choice == "A":
+                print("You insert the key into the old door, and it crashes open. In front of you lies a dark corridor, and someone is standing there.\nIt's a creature with glowing, fiery eyes, clearly not human. It charges at you and overpowers you.\nDespite your efforts to resist, your strength fades faster than you can fight back.")
+                break
+            elif your_choice == "B":
+                print("You hide in the corner, hoping the creature will pass by. But it senses your presence. Suddenly, it turns and growls, rushing towards you.")
+                print('''
+                    ,"f  _,==.    ._:' 
+                          : `   -.e.` .'_e; 
+                          `',         \    
+                           |:  `     ,-  ' 
+                        .--: \      __  /  
+                     .-'    `.`.   `--, -. 
+                    /  _..    `-`-.___/   `. 
+                   :.-"   `*.    `.`*-.-.   \ 
+                   /         `.    `-. `-:   ; 
+                  :            `.     `-. \  : 
+                                    
+                ''')
+                print("Soon, the creature finds you and attacks. You fail to survive — death comes too quickly.")
+                break
+            else:
+                print("Please choose the correct answer - 'A' or 'B'.")
+        break
+    elif your_choice == "B":
+        print("You strike the door a few times with all your strength, but it turns out to be tougher than you expected.\nYou hear footsteps approaching behind the door, growing closer with each second.\nThis choice proves fatal. When the door finally opens, a creature with sunken eyes, pale skin, and a rotting hole in its stomach stands before you.")
+        print('''
+        .(
+       /%/\
+      (%(%))
+     .-'..`-.
+     `-'.'`-'
+                                  
+        ''')
+        print("The creature attacks you. You fail to survive in this abyss. The grave becomes your final resting place.")
+        break
+    else:
+        print("Please choose the correct answer - 'A' or 'B'.")
+        continue
+
+# Transition 2
+print('''
+                     _.----------------------------._
+           _.-'          '-        .           '-._
+         .'      _|   .    . - .        ._         '.
+      _.'    '           .'     '.               _| |
+     /  _|        _|    ''       ''  |_     '    .  '.
+    |      . -- .      ''         ''      . -- .     |
+   .'    .'      '.   -||         ||    .'      '.   '.
+   | '  ''        ''   ||   .-.   ||_  ''        ''   |
+   '.  ''          ''  ||   | |   ||  ''          ''  |
+    | -||          ||- '____|!|____' -||          ||- |
+    |  ||          ||  |____-+-____|  ||          ||  '.
+   .' -||          ||_ ||   |!|   ||  ||          ||  _|
+   |_.-||          ||  ||   | |   || _||          ||-._|
+_.-' |_||          ||  ||   | |   ||  ||          ||_| '-._
+_| |_  |:;;.,::;,.';|--|:;;.| |,.';|--|:;;.,::;,.';|     |_
+         :;;.,::;,.';   :;;.| |,.';    :;;.,::;,.';  _|   -'
+   |_                       | |                         |_.
+ _      _|                __|_|__              |_     _
+|________________________/_______\___________________|______
+,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.,:.
+-LGB--------------------------------------------------------
+      ''')
+print("\nAfter death, you feel a strange sensation. Your body disappears, but a faint echo of power emerges in the dark depths of your mind.\nAwaiting your end, you suddenly hear a familiar voice, like an echo from the abyss: 'You will not be abandoned.'")
+print("You open your eyes and see light, but it is no ordinary light. It does not warm but strains your eyes, causing pain. Unwillingly, you turn to understand what is happening.")
+print("Before you lies an empty plain, and on the horizon stands a tall, gaping tower. Your strength is restored, but with each step, your memories begin to fade. Each step feels like punishment.")
+
+# Transition 4
+while True:
+    your_choice = input("Choice 3:\nA) Approach the tower despite the fear it instills.\nB) Explore the plain and try to find out why you are here again.\nChoose A or B: ")
+    if your_choice == "A":
+        print("You approach the tower. It does not seem alive, yet it exudes a darkness that consumes your mind. As you get closer, you feel a cold wind carrying whispers of lost souls.")
+        print("Suddenly, a silhouette appears from the dark doors. It slowly approaches, and you recognize the creature that killed you before. Now it carries the same emptiness as you.")
+        print("The creature silently extends its hand, and you feel life leaving you again. But this time, there is no pain, no fear. You dissolve into the darkness.")
+        break
+    elif your_choice == "B":
+        print("You decide to explore the plain, seeking answers. Suddenly, the ground beneath your feet begins to tremble, and a fissure opens, releasing dark energy. It is unbearable. But you feel that this world has always been this way.")
+        print("You understand that nothing can be changed. Before you lies the end. No matter the outcome, your soul will be tormented in this endless tyranny.")
+        print("You realize that you are just a part of this cycle, trapped in an eternal loop. You are destined to walk this path over and over again.")
+        break
+    else:
+        print("Please choose the correct answer - 'A' or 'B'.")
+        continue
+
+print("You realize that you are just a part of this cycle, trapped in an eternal loop. You are destined to walk this path over and over again.")
+
+# Transition 5
+while True:
+    your_choice = input("Choice 4:\nA) Decide to stand and accept your fate without resistance.\nB) Fight, attempting to find a way to break the cycle.\nChoose A or B: ")
+    
+    if your_choice == "A":
+        print("You stand still, allowing the dark energy to consume your soul. Suddenly, a silhouette appears before you. It is not a creature but something else — a figure from your nightmares.")
+        print("The figure remains silent, but its eyes are full of the void. You feel your mind dissolving, your body covered in an icy crust. Everything you once knew disappears, and in this emptiness, there is peace.")
+        print("You understand that in this cycle, there are no winners. There is no point in fighting, and you accept your fate. Your body becomes part of this land, and your soul — part of eternal oblivion.")
+        print("With every cycle, with every repetition, you will watch those who come after you. And so, due to endless dark magic, this cycle will continue forever.")
+        break
+    
+    elif your_choice == "B":
+        print("You decide to fight. Your efforts to escape grow more intense, but the more you resist, the more the dark energy consumes your strength.")
+        print("Suddenly, in the sky, you notice a strange anomaly — a crack through which you see something incredible. It is like a window to another world, one you have never seen before.")
+        print("Without losing hope, you decide to jump into the rift. Your entire body shakes, and you feel your spirit being torn apart.")
+        print("When you land, the world around you changes.\nInstead of an empty plain, there is now a ruined village, the air thick with the stench of decay.\nEverything looks the same as before, but now you understand — you have entered a new cycle.")
+        print("Here, you see silhouettes of those who came before you. These are lost souls who also tried to escape this endless loop. But none of them made it through unscathed.")
+        print("You realize that freedom is just an illusion. Your steps will leave traces on this land, but those traces will vanish as soon as the next cycle begins.")
+        break
+    
+    else:
+        print("Please choose the correct answer - 'A' or 'B'.")
+        continue
+
+# Ending
+print('''                            
+                      |
+              ___     |    
+             / .-\  ./=)
+            |  |"|_/\/|
+            ;  |-;| /_|
+           / \_| |/ \ |
+          /      \/\( |
+          |   /  |` ) |
+          /   \ _/    |
+         /--._/  \    |
+         `/|)    |    /
+           /     |   |
+         .'      |   |
+        /         \  |
+       (_.-.__.__./  /
+      ''')
+print("Before you appears a strange entity. It is not just a creature but the embodiment of darkness created by this cycle. It stares at you with empty eyes.")
+print("The entity says: 'You are a part of this world. You do not choose but are meant to walk the path. You are a part of this endless suffering, like all the others.'")
+print("And so, you finally understand that you are not destined to escape. This world, this endless chain of suffering — it is your path. It has no end. It only repeats, consuming all that lives.")
+print("The entity vanishes into the darkness, leaving you alone with your horror. You understand that there is no point in fighting. No point in hoping.")
+print("The cycle continues, and your trace will remain forever in this darkness.")
+
+# Final
+print("But in truth... the Lords will abandon their thrones... and the Unkindled will rise.")
+print("Nameless, accursed undead, unworthy of ash... So it is, the Unkindled always seek embers.")
+print("The Great Flame will fade — you have failed your purpose. Tiny flames will dance in the darkness, and... do you still hear my voice?")
+
+
+# I know it's short, but it's only for practice purposes.
